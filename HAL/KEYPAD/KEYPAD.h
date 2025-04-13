@@ -28,5 +28,7 @@
 
 void keypad_init(void);
 uint8 Keypad_getkey(void);
+extern uint8 arr[NUMBER_OF_ROWS][NUMBER_OF_COLS];
+
 
 #endif /* HAL_KEYPAD_KEYPAD_H_ */

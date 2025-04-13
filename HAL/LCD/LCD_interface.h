@@ -26,5 +26,5 @@ extern void LCD_goto(uint8 row,uint8 col);
 
 extern void LCD_write_string_goto(uint8 *str,uint8 row,uint8 col);
 
-extern LCD_clear(void);
+extern void LCD_clear(void);
 #endif /* HAL_LCD_LCD_INTERFACE_H_ */

@@ -10,7 +10,6 @@
 #include "mem_map.h"
 #include "DIO_cfg.h"
 
-extern DioDirection_Type config_pins[NUM_OF_PINS];
 
 void DIO_initpin(DioPin_Type pin,DioDirection_Type direction){
 	uint8 port=pin/8;
